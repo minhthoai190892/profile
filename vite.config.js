@@ -11,6 +11,7 @@ export default defineConfig({
   preview: {
     host: "0.0.0.0",
     port: 3000,
+    allowedHosts: ["profile-1grk.onrender.com"], // Cho phép host của Render
   },
 });
 
